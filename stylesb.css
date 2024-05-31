@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecario{
+
+    background-color: rgba(6, 94, 25, 0.863);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    padding: 0 25px;
+   
+
+}
+
+.logo{
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    
+    
+    background: azul;
+    box-shadow: 3px 5px 8px rgb(12, 176, 176); /*(sombra do hamburgue) */
+    
+
+}
+
+.principal{
+    margin: 50px;
+    text-align: center ;
+}
+
+.img1{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.cirurgia{
+    align-items: center;
+    
+    height: 90px;
+    margin: 20px;
+}
+
+h1{
+    color:  rgb(0, 0, 0);
+    margin: 1%;
+    font-size: 70px;
+    text-align: center;
+}
+.text{
+    color: rgba(0, 0, 0, 0.863);
+   width: 200%;
+   margin: 1%;
+   }
+
+   .rodape{
+    background-color:  rgba(6, 94, 25, 0.863 );
+    display: flex;
+    justify-content:space-between;
+
+    
+   }
+

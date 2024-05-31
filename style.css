@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecario{
+
+    background-color: rgba(6, 94, 25, 0.863);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    padding: 0 25px;
+   
+
+}
+
+.logo{
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    
+    
+    background: azul;
+    box-shadow: 3px 5px 8px rgb(12, 176, 176); /*(sombra do hamburgue) */
+    
+
+}
+
+.principal{
+    margin: 50px;
+    text-align: center ;
+}
+
+.img1{
+    width: 700px;
+    border-radius: 10px;
+}
+
+.cirurgia{
+    align-items: center;
+    display: flex;
+    height: 90px;
+    margin: 20px;
+}
+
+.mapBox{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    background: #fff;
+    align-items: center;
+}
+
+.mapBox iframe{
+
+    height: 390px;
+    width: 216%;
+    display: block; /* Necessário para o margin funcionar */
+    margin-left: auto; /* aqui */
+    margin-right: auto; /* e aqui */
+}
+h1{
+    color: rgba(6, 94, 25, 0.863 );
+    margin: 1%;
+    text-align: center;
+}
+h2{
+    color: rgba(6, 94, 25, 0.863 );
+   margin: 09%;
+   text-align: center;
+   width: 190%;
+   }
+
+
+   .rodape{
+    background-color:  rgba(6, 94, 25, 0.863 );
+    display: flex;
+    justify-content:space-between;
+
+    
+   }
+
